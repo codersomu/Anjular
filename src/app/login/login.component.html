@@ -1,15 +1,11 @@
 <div class="login-container">
   <mat-form-field>
-    <input matInput placeholder="Input">
+    <input matInput placeholder="Input" [(ngModel)]="username">
   </mat-form-field>
 
   <mat-form-field>
-    <textarea matInput placeholder="Textarea"></textarea>
+    <input matInput placeholder="Input" [(ngModel)]="password">
   </mat-form-field>
 
-  <mat-form-field>
-    <mat-select placeholder="Select">
-      <mat-option value="option">Option</mat-option>
-    </mat-select>
-  </mat-form-field>
+    <button mat-button color="primary" (click)="validateLogin()">Primary</button>
 </div>

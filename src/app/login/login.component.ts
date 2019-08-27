@@ -8,9 +8,15 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    let username: String = '';
+    let password: String = '';
+   }
 
   ngOnInit() {
+  }
+  validateLogin(){
+    console.log('Input element : ', this.username )
   }
 
 }

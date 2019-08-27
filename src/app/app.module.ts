@@ -9,6 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule , routingComponents } from './app.router.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './app.material-module';
+
+import { FormsModule } from '@angular/forms';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +25,8 @@ import { MaterialModule } from './app.material-module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
