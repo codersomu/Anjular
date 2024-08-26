@@ -1,0 +1,560 @@
+<div style="width: 100%" class="content-area">
+  <app-header></app-header>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>Advance Filters</mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <h2>Chart type</h2>
+    <mat-checkbox class="example-margin" [(ngModel)]="filter.listingtype_chart"
+      >Chart</mat-checkbox
+    >
+    <mat-checkbox class="example-margin" [(ngModel)]="filter.listingtype_table"
+      >Table</mat-checkbox
+    >
+    <mat-checkbox class="example-margin" [(ngModel)]="filter.onlyholding"
+      >Only Holding</mat-checkbox
+    >
+    <div class="row">
+      <div class="col-6">
+        <h2>Macd</h2>
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.macd_up"
+          >UP</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.macd_low"
+          >Down</mat-checkbox
+        >
+
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.macd_buy_cut"
+          >Buy Trigger</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.macd_sell_cut"
+          >Sell Trigger</mat-checkbox
+        >
+      </div>
+      <div class="col-6">
+        <h2>Trend</h2>
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.trend_up"
+          >UP</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.trend_low"
+          >Down</mat-checkbox
+        >
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+        <h2>Super Trend</h2>
+
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.sup_up"
+          >UP</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.sup_down"
+          >Down</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.sup_ydown_tup"
+          >T-Up Y-down</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.sup_yup_tdown"
+          >Y-Up T-down</mat-checkbox
+        >
+      </div>
+
+      <div class="col-6">
+        <h2>SMA</h2>
+
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.below_50_sma"
+          >Below 50 SMA</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.above_50_sma"
+          >Above 50 SMA</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.below_200_sma"
+          >Below 200 SMA</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.above_200_sma"
+          >Above 200 SMA</mat-checkbox
+        >
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+        <h2>Heikin-Ashi</h2>
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.ha_t_up"
+          >Today Up</mat-checkbox
+        >
+
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.ha_y_up"
+          >Y-Up</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.ha_yy_up"
+          >Yy-Up</mat-checkbox
+        >
+
+        &nbsp; &nbsp; &nbsp;
+
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.ha_t_down"
+          >Today Down</mat-checkbox
+        >
+
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.ha_y_down"
+          >Y-Down</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.ha_yy_down"
+          >Yy-Down</mat-checkbox
+        >
+      </div>
+
+      <div class="col-6">
+        <h2>Price</h2>
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.price_t_up"
+          >Today Up</mat-checkbox
+        >
+
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.price_y_up"
+          >Y-Up</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.price_yy_up"
+          >Yy-Up</mat-checkbox
+        >
+
+        &nbsp; &nbsp; &nbsp;
+
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.price_t_down"
+          >Today Down</mat-checkbox
+        >
+
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.price_y_down"
+          >Y-Down</mat-checkbox
+        >
+        <mat-checkbox class="example-margin" [(ngModel)]="filter.price_yy_down"
+          >Yy-Down</mat-checkbox
+        >
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <h2>Rsi</h2>
+        <mat-form-field>
+          <mat-label>Low</mat-label>
+          <input
+            matInput
+            type="number"
+            min="0"
+            max="100"
+            [(ngModel)]="filter.rsi_min"
+          />
+        </mat-form-field>
+
+        &nbsp;&nbsp;
+
+        <mat-form-field>
+          <mat-label>Max</mat-label>
+          <input
+            matInput
+            type="number"
+            min="0"
+            max="100"
+            [(ngModel)]="filter.rsi_max"
+          />
+        </mat-form-field>
+      </div>
+      <div class="col-4">
+        <h2>Month Growth</h2>
+        <mat-form-field>
+          <mat-label>Low</mat-label>
+          <input
+            matInput
+            type="number"
+            min="0"
+            max="100"
+            [(ngModel)]="filter.mg_min"
+          />
+        </mat-form-field>
+
+        &nbsp;&nbsp;
+
+        <mat-form-field>
+          <mat-label>Max</mat-label>
+          <input
+            matInput
+            type="number"
+            min="0"
+            max="100"
+            [(ngModel)]="filter.mg_max"
+          />
+        </mat-form-field>
+      </div>
+
+      <div class="col-4">
+        <h2>Price</h2>
+        <mat-form-field>
+          <mat-label>Low</mat-label>
+          <input
+            matInput
+            type="number"
+            min="0"
+            max="100"
+            [(ngModel)]="filter.price_min"
+          />
+        </mat-form-field>
+
+        &nbsp;&nbsp;
+
+        <mat-form-field>
+          <mat-label>Max</mat-label>
+          <input
+            matInput
+            type="number"
+            min="0"
+            max="100"
+            [(ngModel)]="filter.price_max"
+          />
+        </mat-form-field>
+      </div>
+    </div>
+
+    <h2>Linner Regression</h2>
+    <mat-checkbox class="example-margin" [(ngModel)]="filter.lr_below_lower"
+      >Below Lower</mat-checkbox
+    >
+    <mat-checkbox class="example-margin" [(ngModel)]="filter.lr_above_lower"
+      >Above Lower</mat-checkbox
+    >
+
+    <mat-checkbox class="example-margin" [(ngModel)]="filter.lr_below_middle"
+      >Below Middle</mat-checkbox
+    >
+    <mat-checkbox class="example-margin" [(ngModel)]="filter.lr_above_middle"
+      >Above Middle</mat-checkbox
+    >
+
+    <mat-checkbox class="example-margin" [(ngModel)]="filter.lr_below_upper"
+      >Below Upper</mat-checkbox
+    >
+    <mat-checkbox class="example-margin" [(ngModel)]="filter.lr_above_upper"
+      >Above Upper</mat-checkbox
+    >
+    <h2>Technical</h2>
+    <table>
+      <tr>
+        <td><b>Harami</b></td>
+        <td>
+          <mat-checkbox class="example-margin" [(ngModel)]="filter.CDLHARAMI"
+            >Today</mat-checkbox
+          >
+        </td>
+        <td>
+          <mat-checkbox class="example-margin" [(ngModel)]="filter.y_CDLHARAMI"
+            >Yday</mat-checkbox
+          >
+        </td>
+
+        <td width="30px">&nbsp;</td>
+
+        <td><b>Piercing</b></td>
+        <td>
+          <mat-checkbox class="example-margin" [(ngModel)]="filter.CDLPIERCING"
+            >Today</mat-checkbox
+          >
+        </td>
+        <td>
+          <mat-checkbox
+            class="example-margin"
+            [(ngModel)]="filter.y_CDLPIERCING"
+            >Yday</mat-checkbox
+          >
+        </td>
+
+        <td width="30px">&nbsp;</td>
+
+        <td><b>Dark Cloud Cover</b></td>
+        <td>
+          <mat-checkbox
+            class="example-margin"
+            [(ngModel)]="filter.CDLDARKCLOUDCOVER"
+            >Today</mat-checkbox
+          >
+        </td>
+        <td>
+          <mat-checkbox
+            class="example-margin"
+            [(ngModel)]="filter.y_CDLDARKCLOUDCOVER"
+            >Yday</mat-checkbox
+          >
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>CDLENGULFING</b></td>
+        <td>
+          <mat-checkbox class="example-margin" [(ngModel)]="filter.CDLENGULFING"
+            >Today</mat-checkbox
+          >
+        </td>
+        <td>
+          <mat-checkbox
+            class="example-margin"
+            [(ngModel)]="filter.y_CDLENGULFING"
+            >Yday</mat-checkbox
+          >
+        </td>
+
+        <td width="30px">&nbsp;</td>
+
+        <td><b>CDLEVENINGSTAR</b></td>
+        <td>
+          <mat-checkbox
+            class="example-margin"
+            [(ngModel)]="filter.CDLEVENINGSTAR"
+            >Today</mat-checkbox
+          >
+        </td>
+        <td>
+          <mat-checkbox
+            class="example-margin"
+            [(ngModel)]="filter.y_CDLEVENINGSTAR"
+            >Yday</mat-checkbox
+          >
+        </td>
+
+        <td width="30px">&nbsp;</td>
+
+        <td><b>CDLHAMMER</b></td>
+        <td>
+          <mat-checkbox class="example-margin" [(ngModel)]="filter.CDLHAMMER"
+            >Today</mat-checkbox
+          >
+        </td>
+        <td>
+          <mat-checkbox class="example-margin" [(ngModel)]="filter.y_CDLHAMMER"
+            >Yday</mat-checkbox
+          >
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>CDLHANGINGMAN</b></td>
+        <td>
+          <mat-checkbox
+            class="example-margin"
+            [(ngModel)]="filter.CDLHANGINGMAN"
+            >Today</mat-checkbox
+          >
+        </td>
+        <td>
+          <mat-checkbox
+            class="example-margin"
+            [(ngModel)]="filter.CDLHANGINGMAN"
+            >Yday</mat-checkbox
+          >
+        </td>
+
+        <td width="30px">&nbsp;</td>
+
+        <td><b>CDLMARUBOZU</b></td>
+        <td>
+          <mat-checkbox class="example-margin" [(ngModel)]="filter.CDLMARUBOZU"
+            >Today</mat-checkbox
+          >
+        </td>
+        <td>
+          <mat-checkbox
+            class="example-margin"
+            [(ngModel)]="filter.y_CDLMARUBOZU"
+            >Yday</mat-checkbox
+          >
+        </td>
+
+        <td width="30px">&nbsp;</td>
+
+        <td><b>CDLSHOOTINGSTAR</b></td>
+        <td>
+          <mat-checkbox
+            class="example-margin"
+            [(ngModel)]="filter.CDLSHOOTINGSTAR"
+            >Today</mat-checkbox
+          >
+        </td>
+        <td>
+          <mat-checkbox
+            class="example-margin"
+            [(ngModel)]="filter.y_CDLSHOOTINGSTAR"
+            >Yday</mat-checkbox
+          >
+        </td>
+      </tr>
+    </table>
+
+    <button color="primary" (click)="filterByTechnical()">Filter</button>
+  </mat-expansion-panel>
+  <br />
+  <mat-form-field style="width: 100%">
+    <mat-label>Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" />
+  </mat-form-field>
+  <!-- *ngIf=""-->
+  <table
+    mat-table
+    [dataSource]="dataSource"
+    class="mat-elevation-z8"
+    style="width: 100%"
+    matSort
+    [ngClass]="[filter.listingtype_table ? 'show-div' : 'hide-div']"
+  >
+    <!-- Name Column -->
+    <ng-container matColumnDef="script">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.script }}
+      </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="current_price">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Current Price</th>
+      <td mat-cell *matCellDef="let element">
+        <span
+          [ngClass]="[
+            element.ptsC > 0 ? 'positive-field-text' : 'nagetive-field-text'
+          ]"
+          >{{ element.current_price }} Rs</span
+        >
+      </td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="ptsC">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Gain/Loss</th>
+      <td mat-cell *matCellDef="let element">
+        <span
+          [ngClass]="[
+            element.ptsC > 0 ? 'positive-field-text' : 'nagetive-field-text'
+          ]"
+          >{{ element.ptsC }} Rs</span
+        >
+      </td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="per">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Change</th>
+      <td mat-cell *matCellDef="let element">
+        <span
+          [ngClass]="[
+            element.ptsC > 0 ? 'positive-field-text' : 'nagetive-field-text'
+          ]"
+        >
+          {{ element.per }} %</span
+        >
+      </td>
+    </ng-container>
+
+    <!-- Weight Column  -->
+    <ng-container matColumnDef="RSI">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Rsi</th>
+      <td mat-cell *matCellDef="let element">
+        <span
+          [ngClass]="[
+            element.RSI > 70 ? 'nagetive-field' : '',
+            element.RSI < 70 && element.RSI > 50 ? 'mild-positive-field' : '',
+            element.RSI <= 50 && element.RSI > 30 ? 'positive-field' : '',
+            element.RSI <= 30 ? 'neutral-field' : ''
+          ]"
+        >
+          {{ element.RSI }}</span
+        >
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="macdhist">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>frm-LR</th>
+      <td mat-cell *matCellDef="let element">
+        <span
+          [ngClass]="[
+            element.current_price > element.technical.lr_upper
+              ? 'nagetive-field'
+              : '',
+            element.current_price < element.technical.lr_upper &&
+            element.current_price > element.technical.lr_middle
+              ? 'mild-positive-field'
+              : '',
+            element.current_price < element.technical.lr_middle &&
+            element.current_price > element.technical.lr_lower
+              ? 'positive-field'
+              : '',
+            element.current_price <= element.technical.lr_lower
+              ? 'neutral-field'
+              : ''
+          ]"
+        >
+          {{ element.macdhist }}</span
+        >
+
+        <!-- {{ element.y_technical.histogram.toFixed(2) }} /
+        {{ element.technical.histogram.toFixed(2) }} -->
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="points">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Points</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.points }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="mg">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Month G</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.mg }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="volumegrowth">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Vol G</th>
+      <td mat-cell *matCellDef="let element">
+        <span
+          [ngClass]="[
+            element.volumegrowth > 0 ? 'positive-field' : 'nagetive-field'
+          ]"
+          >{{ element.volumegrowth }}</span
+        >
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="EMA">
+      <th mat-header-cell *matHeaderCellDef>View</th>
+      <td mat-cell *matCellDef="let element">
+        <button mat-raised-button (click)="openDialog(element.script)">
+          Chart
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+  <ng-container *ngIf="filter.listingtype_chart">
+    <div
+      *ngFor="let data of dataSource.filteredData"
+      style="display: flex; align-items: center"
+    >
+      <div class="row">
+        <div class="col-10">
+          <img [src]="env + data.script + '/chart_normal.png'" />
+        </div>
+        <div class="col-2">
+          <h3>{{ data.script }}</h3>
+          <h3>Price - {{ data.current_price }}</h3>
+          <h3>RSI - {{ data.RSI }}</h3>
+          <button mat-raised-button (click)="openDialog(data.script)">
+            Chart
+          </button>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>
