@@ -1,5 +1,6 @@
 [
     {
+        "is_closed": 0,
         "_id": "66e7c81930f4c6f878b5740e",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -15,6 +16,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "65ffc0aaf2c9b52f2455cd03",
         "__v": 0,
         "account_type": "anju",
@@ -27,9 +29,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HOMEFIRST",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.445Z",
+        "updated": "2024-10-29T04:17:36.445Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffc057f2c9b52f2455cd01",
         "__v": 0,
         "account_type": "anju",
@@ -42,9 +46,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HDFCLIFE",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.446Z",
+        "updated": "2024-10-29T04:17:36.446Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffc11cf2c9b52f2455cd05",
         "__v": 0,
         "account_type": "anju",
@@ -57,9 +63,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "IRFC",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.446Z",
+        "updated": "2024-10-29T04:17:36.446Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffec94bfc835481c806416",
         "__v": 0,
         "account_type": "anju",
@@ -72,9 +80,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "SBIN",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.446Z",
+        "updated": "2024-10-29T04:17:36.446Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffc149f2c9b52f2455cd06",
         "__v": 0,
         "account_type": "anju",
@@ -87,9 +97,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "ITC",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.446Z",
+        "updated": "2024-10-29T04:17:36.446Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffd93fbfc835481c80640f",
         "__v": 0,
         "account_type": "anju",
@@ -102,9 +114,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "RAILTEL",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.446Z",
+        "updated": "2024-10-29T04:17:36.446Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffbf8ef2c9b52f2455ccfb",
         "__v": 0,
         "account_type": "anju",
@@ -117,9 +131,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "FEDERALBNK",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.446Z",
+        "updated": "2024-10-29T04:17:36.446Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffbffcf2c9b52f2455ccfe",
         "__v": 0,
         "account_type": "anju",
@@ -132,9 +148,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HDFCBANK",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.446Z",
+        "updated": "2024-10-29T04:17:36.446Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffd876bfc835481c80640c",
         "__v": 0,
         "account_type": "anju",
@@ -147,9 +165,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "LT",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.447Z",
+        "updated": "2024-10-29T04:17:36.447Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffed1fbfc835481c806419",
         "__v": 0,
         "account_type": "anju",
@@ -162,9 +182,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "TITAN",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.447Z",
+        "updated": "2024-10-29T04:17:36.447Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffd7babfc835481c806408",
         "__v": 0,
         "account_type": "anju",
@@ -177,9 +199,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "JIOFIN",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.447Z",
+        "updated": "2024-10-29T04:17:36.447Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffc011f2c9b52f2455ccff",
         "__v": 0,
         "account_type": "anju",
@@ -192,24 +216,28 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HDFCBANK",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.447Z",
+        "updated": "2024-10-29T04:17:36.447Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffd96dbfc835481c806410",
         "__v": 0,
         "account_type": "anju",
         "buy_date": "2021-05-04T00:00:00.000Z",
-        "buy_price": 1831.1,
-        "buy_quantity": 5,
+        "buy_price": 915.55,
+        "buy_quantity": 10,
         "investment_type": "shortterm",
         "sell_date": "",
         "sell_price": null,
         "sell_quantity": null,
         "status": "active",
         "symbol": "RELIANCE",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.447Z",
+        "updated": "2024-10-29T04:17:36.447Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffc071f2c9b52f2455cd02",
         "__v": 0,
         "account_type": "anju",
@@ -222,7 +250,8 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HDFCLIFE",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.447Z",
+        "updated": "2024-10-29T04:17:36.447Z"
     },
     {
         "_id": "65ffc174f2c9b52f2455cd07",
@@ -242,6 +271,7 @@
         "updated": "2024-03-24T06:03:28.829Z"
     },
     {
+        "is_closed": 0,
         "_id": "66e7c83c30f4c6f878b57410",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -257,6 +287,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "65ffd7edbfc835481c806409",
         "__v": 0,
         "account_type": "anju",
@@ -269,9 +300,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "KEC",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.448Z",
+        "updated": "2024-10-29T04:17:36.448Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffebe8bfc835481c806414",
         "__v": 0,
         "account_type": "anju",
@@ -284,9 +317,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "SAIL",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.448Z",
+        "updated": "2024-10-29T04:17:36.448Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffebfdbfc835481c806415",
         "__v": 0,
         "account_type": "anju",
@@ -299,9 +334,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "SAIL",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.448Z",
+        "updated": "2024-10-29T04:17:36.448Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffecfebfc835481c806418",
         "__v": 0,
         "account_type": "anju",
@@ -314,9 +351,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "TATAMOTORS",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.449Z",
+        "updated": "2024-10-29T04:17:36.449Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffd9c7bfc835481c806412",
         "__v": 0,
         "account_type": "anju",
@@ -329,9 +368,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "SAIL",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.449Z",
+        "updated": "2024-10-29T04:17:36.449Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffd9e3bfc835481c806413",
         "__v": 0,
         "account_type": "anju",
@@ -344,9 +385,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "SAIL",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.449Z",
+        "updated": "2024-10-29T04:17:36.449Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffd89dbfc835481c80640d",
         "__v": 0,
         "account_type": "anju",
@@ -359,9 +402,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "PETRONET",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.449Z",
+        "updated": "2024-10-29T04:17:36.449Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffbfa9f2c9b52f2455ccfc",
         "__v": 0,
         "account_type": "anju",
@@ -374,9 +419,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "FEDERALBNK",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.449Z",
+        "updated": "2024-10-29T04:17:36.449Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffc025f2c9b52f2455cd00",
         "__v": 0,
         "account_type": "anju",
@@ -389,9 +436,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HDFCBANK",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.449Z",
+        "updated": "2024-10-29T04:17:36.449Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffd919bfc835481c80640e",
         "__v": 0,
         "account_type": "anju",
@@ -404,9 +453,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "POWERGRID",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.449Z",
+        "updated": "2024-10-29T04:17:36.449Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffecd7bfc835481c806417",
         "__v": 0,
         "account_type": "anju",
@@ -419,9 +470,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "SONACOMS",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.449Z",
+        "updated": "2024-10-29T04:17:36.449Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffd81fbfc835481c80640a",
         "__v": 0,
         "account_type": "anju",
@@ -434,9 +487,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "KOTAKBANK",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.450Z",
+        "updated": "2024-10-29T04:17:36.450Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffd843bfc835481c80640b",
         "__v": 0,
         "account_type": "anju",
@@ -449,9 +504,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "LICI",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.450Z",
+        "updated": "2024-10-29T04:17:36.450Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffd992bfc835481c806411",
         "__v": 0,
         "account_type": "anju",
@@ -464,9 +521,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "RRKABEL",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.450Z",
+        "updated": "2024-10-29T04:17:36.450Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffbf60f2c9b52f2455ccfa",
         "__v": 0,
         "account_type": "anju",
@@ -479,9 +538,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "CELLO",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.450Z",
+        "updated": "2024-10-29T04:17:36.450Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffbfd0f2c9b52f2455ccfd",
         "__v": 0,
         "account_type": "anju",
@@ -494,9 +555,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "FEDFINA",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.450Z",
+        "updated": "2024-10-29T04:17:36.450Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffadf9f2c9b52f2455ccec",
         "__v": 0,
         "account_type": "arvind",
@@ -509,9 +572,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HDFCBANK",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.450Z",
+        "updated": "2024-10-29T04:17:36.450Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffae21f2c9b52f2455cced",
         "__v": 0,
         "account_type": "arvind",
@@ -524,9 +589,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HDFCBANK",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.450Z",
+        "updated": "2024-10-29T04:17:36.450Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffae69f2c9b52f2455ccee",
         "__v": 0,
         "account_type": "arvind",
@@ -539,9 +606,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HDFCBANK",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.450Z",
+        "updated": "2024-10-29T04:17:36.450Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffae84f2c9b52f2455ccef",
         "__v": 0,
         "account_type": "arvind",
@@ -554,9 +623,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HDFCBANK",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.451Z",
+        "updated": "2024-10-29T04:17:36.451Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffafaaf2c9b52f2455ccf3",
         "__v": 0,
         "account_type": "arvind",
@@ -569,9 +640,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "IDFCFIRSTB",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.451Z",
+        "updated": "2024-10-29T04:17:36.451Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffb019f2c9b52f2455ccf5",
         "__v": 0,
         "account_type": "arvind",
@@ -584,9 +657,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "INDUSINDBK",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.451Z",
+        "updated": "2024-10-29T04:17:36.451Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffb096f2c9b52f2455ccf8",
         "__v": 0,
         "account_type": "arvind",
@@ -599,9 +674,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "TATATECH",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.452Z",
+        "updated": "2024-10-29T04:17:36.452Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffae9df2c9b52f2455ccf0",
         "__v": 0,
         "account_type": "arvind",
@@ -614,9 +691,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HDFCBANK",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.452Z",
+        "updated": "2024-10-29T04:17:36.452Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffaf55f2c9b52f2455ccf1",
         "__v": 0,
         "account_type": "arvind",
@@ -629,9 +708,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HDFCLIFE",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.452Z",
+        "updated": "2024-10-29T04:17:36.452Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffb03bf2c9b52f2455ccf6",
         "__v": 0,
         "account_type": "arvind",
@@ -644,9 +725,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "PAYTM",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.453Z",
+        "updated": "2024-10-29T04:17:36.453Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffafc4f2c9b52f2455ccf4",
         "__v": 0,
         "account_type": "arvind",
@@ -659,24 +742,28 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "IDFCFIRSTB",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.453Z",
+        "updated": "2024-10-29T04:17:36.453Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffb05bf2c9b52f2455ccf7",
         "__v": 0,
         "account_type": "arvind",
         "buy_date": "2024-03-13T00:00:00.000Z",
-        "buy_price": 2873.25,
-        "buy_quantity": 3,
+        "buy_price": 1436.63,
+        "buy_quantity": 6,
         "investment_type": "shortterm",
         "sell_date": "",
         "sell_price": null,
         "sell_quantity": null,
         "status": "active",
         "symbol": "RELIANCE",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.453Z",
+        "updated": "2024-10-29T04:17:36.453Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffc0ddf2c9b52f2455cd04",
         "__v": 0,
         "account_type": "anju",
@@ -689,9 +776,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "IDFCFIRSTB",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.453Z",
+        "updated": "2024-10-29T04:17:36.453Z"
     },
     {
+        "is_closed": 0,
         "_id": "66ddf94a95409b8e8365d342",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -707,6 +796,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66ddfa7d95409b8e8365d346",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -722,6 +812,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "65ffaf7cf2c9b52f2455ccf2",
         "__v": 0,
         "account_type": "arvind",
@@ -734,9 +825,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "HMAAGRO",
-        "updated": "2024-10-17T14:49:04.458Z"
+        "created_on": "2024-10-29T04:17:36.453Z",
+        "updated": "2024-10-29T04:17:36.453Z"
     },
     {
+        "is_closed": 0,
         "_id": "65ffb0adf2c9b52f2455ccf9",
         "__v": 0,
         "account_type": "arvind",
@@ -749,9 +842,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "TATATECH",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.453Z",
+        "updated": "2024-10-29T04:17:36.453Z"
     },
     {
+        "is_closed": 0,
         "_id": "66094e0b1f4b902dbde17dbb",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -763,9 +858,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.454Z",
+        "updated": "2024-10-29T04:17:36.454Z"
     },
     {
+        "is_closed": 0,
         "_id": "66084a14bc987c461ce268e0",
         "__v": 0,
         "account_type": "arvind",
@@ -778,9 +875,11 @@
         "sell_quantity": null,
         "status": "active",
         "symbol": "IDFCFIRSTB",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.454Z",
+        "updated": "2024-10-29T04:17:36.454Z"
     },
     {
+        "is_closed": 0,
         "_id": "662b8691715278e1dfa6fc17",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -792,9 +891,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.454Z",
+        "updated": "2024-10-29T04:17:36.454Z"
     },
     {
+        "is_closed": 0,
         "_id": "662b870b715278e1dfa6fc19",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -806,9 +907,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.454Z",
+        "updated": "2024-10-29T04:17:36.454Z"
     },
     {
+        "is_closed": 0,
         "_id": "662b8751715278e1dfa6fc1a",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -820,9 +923,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.454Z",
+        "updated": "2024-10-29T04:17:36.454Z"
     },
     {
+        "is_closed": 0,
         "_id": "662b8782715278e1dfa6fc1b",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -834,9 +939,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.454Z",
+        "updated": "2024-10-29T04:17:36.454Z"
     },
     {
+        "is_closed": 0,
         "_id": "664046a803d7516f67726964",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -848,9 +955,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.454Z",
+        "updated": "2024-10-29T04:17:36.454Z"
     },
     {
+        "is_closed": 0,
         "_id": "664046fe03d7516f67726965",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -862,9 +971,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.454Z",
+        "updated": "2024-10-29T04:17:36.454Z"
     },
     {
+        "is_closed": 0,
         "_id": "6640473a03d7516f67726966",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -876,9 +987,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.455Z",
+        "updated": "2024-10-29T04:17:36.455Z"
     },
     {
+        "is_closed": 0,
         "_id": "6641f77b03d7516f6772696c",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -890,9 +1003,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.455Z",
+        "updated": "2024-10-29T04:17:36.455Z"
     },
     {
+        "is_closed": 0,
         "_id": "6641f79f03d7516f6772696d",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -904,9 +1019,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.455Z",
+        "updated": "2024-10-29T04:17:36.455Z"
     },
     {
+        "is_closed": 0,
         "_id": "6641f7b303d7516f6772696e",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -918,9 +1035,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.455Z",
+        "updated": "2024-10-29T04:17:36.455Z"
     },
     {
+        "is_closed": 0,
         "_id": "66445cbf8f1cdc7852a32170",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -932,9 +1051,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.455Z",
+        "updated": "2024-10-29T04:17:36.455Z"
     },
     {
+        "is_closed": 0,
         "_id": "6644960c8f1cdc7852a32172",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -946,9 +1067,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.455Z",
+        "updated": "2024-10-29T04:17:36.455Z"
     },
     {
+        "is_closed": 0,
         "_id": "6644960c8f1cdc7852a32173",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -960,9 +1083,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.455Z",
+        "updated": "2024-10-29T04:17:36.455Z"
     },
     {
+        "is_closed": 0,
         "_id": "6644960c8f1cdc7852a32174",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -974,9 +1099,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.455Z",
+        "updated": "2024-10-29T04:17:36.455Z"
     },
     {
+        "is_closed": 0,
         "_id": "6644960c8f1cdc7852a32175",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -988,9 +1115,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.456Z",
+        "updated": "2024-10-29T04:17:36.456Z"
     },
     {
+        "is_closed": 0,
         "_id": "6644960c8f1cdc7852a32176",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1002,9 +1131,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.456Z",
+        "updated": "2024-10-29T04:17:36.456Z"
     },
     {
+        "is_closed": 0,
         "_id": "66570a64c64f6f63bccac563",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1016,9 +1147,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.456Z",
+        "updated": "2024-10-29T04:17:36.456Z"
     },
     {
+        "is_closed": 0,
         "_id": "665ab8acceca0c4b48ea6023",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1030,9 +1163,11 @@
         "sell_quantity": 0,
         "sell_price": 0,
         "status": "active",
-        "updated": "2024-10-17T14:49:04.459Z"
+        "created_on": "2024-10-29T04:17:36.456Z",
+        "updated": "2024-10-29T04:17:36.456Z"
     },
     {
+        "is_closed": 0,
         "_id": "66606f5db0b4a1236908ffc9",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1048,6 +1183,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66606f76b0b4a1236908ffcb",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1063,6 +1199,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66606f8db0b4a1236908ffcd",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1078,6 +1215,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66754408c1b48f54f3044fde",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1093,6 +1231,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "6690bd2e1efe2681c30bd07c",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1108,6 +1247,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "6690bd6a1efe2681c30bd07e",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1123,6 +1263,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "6690bda31efe2681c30bd080",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1138,6 +1279,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "6690be2a1efe2681c30bd082",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1153,6 +1295,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "6690be6c1efe2681c30bd084",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1168,6 +1311,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "6690beac1efe2681c30bd086",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1183,6 +1327,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "669aab7600a2b0e7c18d953a",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1198,6 +1343,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "669aab8800a2b0e7c18d953c",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1213,6 +1359,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "669aabdf00a2b0e7c18d953e",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1228,6 +1375,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "669aac2100a2b0e7c18d9540",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1243,6 +1391,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "669aac8c00a2b0e7c18d9542",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1258,6 +1407,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "669aace200a2b0e7c18d9544",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1273,6 +1423,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66a197d9a8395871210701cb",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1288,6 +1439,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66a197eaa8395871210701cd",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1303,6 +1455,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66a197fba8395871210701cf",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1318,6 +1471,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66a1980ba8395871210701d1",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1333,6 +1487,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66a225c0a8395871210701d3",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1348,6 +1503,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66a225d2a8395871210701d5",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1363,6 +1519,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66a22603a8395871210701d9",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1378,6 +1535,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66a37ce6b752662450b3021b",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1393,6 +1551,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66b0f2bdbc1ca316dd3a0275",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1408,6 +1567,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66b0f2d2bc1ca316dd3a0277",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1423,6 +1583,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66b0f2ebbc1ca316dd3a0279",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1438,6 +1599,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66b0f2ffbc1ca316dd3a027b",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1453,6 +1615,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66b497290fadbc314bdb3610",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1468,6 +1631,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66b497460fadbc314bdb3612",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1483,6 +1647,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66b4b97f0fadbc314bdb3614",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1498,6 +1663,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66b5fa2eb65f7a8686b54d84",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1513,6 +1679,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66b5fa64b65f7a8686b54d86",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1528,6 +1695,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66d1d66a2ed024d5b772180b",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1543,13 +1711,14 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66d1d6812ed024d5b772180d",
         "investment_type": "shortterm",
         "account_type": "anju",
         "symbol": "RELIANCE",
         "buy_date": "2024-08-29T18:30:00.000Z",
-        "buy_quantity": 40,
-        "buy_price": 3040.17,
+        "buy_quantity": 80,
+        "buy_price": 1520.09,
         "sell_date": "",
         "sell_quantity": 0,
         "sell_price": 0,
@@ -1558,6 +1727,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66dee17dcffa294e7fb531ed",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1573,13 +1743,14 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66dade33d752b88f8509172f",
         "investment_type": "shortterm",
         "account_type": "arvind",
         "symbol": "RELIANCE",
         "buy_date": "2024-09-05T18:30:00.000Z",
-        "buy_quantity": 2,
-        "buy_price": 2935.02,
+        "buy_quantity": 4,
+        "buy_price": 1467.51,
         "sell_date": "",
         "sell_quantity": 0,
         "sell_price": 0,
@@ -1588,6 +1759,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66dade4bd752b88f85091731",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1603,6 +1775,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66dade65d752b88f85091733",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1618,6 +1791,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66ddf9bf95409b8e8365d344",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1633,6 +1807,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66e020b2f0c25ca38ff4739f",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1648,6 +1823,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66e519e66248e10e55908449",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1663,13 +1839,14 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66e531cc6248e10e5590844b",
         "investment_type": "shortterm",
         "account_type": "anju",
         "symbol": "RELIANCE",
         "buy_date": "2024-09-10T18:30:00.000Z",
-        "buy_quantity": 3,
-        "buy_price": 2920.33,
+        "buy_quantity": 6,
+        "buy_price": 1460.17,
         "sell_date": "",
         "sell_quantity": 0,
         "sell_price": 0,
@@ -1678,6 +1855,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66e932c8db58b2be503e46e5",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1693,6 +1871,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66ead10d5eae40442e0a3ee8",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1708,6 +1887,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66ead11e5eae40442e0a3eea",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1723,6 +1903,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66ead12e5eae40442e0a3eec",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1738,6 +1919,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66ead13e5eae40442e0a3eee",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1753,6 +1935,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66fd51deabf49567af955e08",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1768,6 +1951,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66fd51f3abf49567af955e0a",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1783,6 +1967,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66fd5208abf49567af955e0c",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1798,6 +1983,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66fe61e1688ba4a5f7294ff2",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1813,6 +1999,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66fe6208688ba4a5f7294ff4",
         "investment_type": "shortterm",
         "account_type": "arvind",
@@ -1828,13 +2015,14 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "66fe625a688ba4a5f7294ff6",
         "investment_type": "shortterm",
         "account_type": "anju",
         "symbol": "RELIANCE",
         "buy_date": "2024-10-02T18:30:00.000Z",
-        "buy_quantity": 2,
-        "buy_price": 2881,
+        "buy_quantity": 4,
+        "buy_price": 1440.5,
         "sell_date": "",
         "sell_quantity": 0,
         "sell_price": 0,
@@ -1843,6 +2031,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "67054781c03c2a6dbdae0231",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1858,6 +2047,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "67054791c03c2a6dbdae0233",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1873,6 +2063,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "670547a2c03c2a6dbdae0235",
         "investment_type": "shortterm",
         "account_type": "anju",
@@ -1888,6 +2079,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "670fb456d556a7f43efc53d1",
         "id": "",
         "investment_type": "shortterm",
@@ -1904,6 +2096,7 @@
         "updated": null
     },
     {
+        "is_closed": 0,
         "_id": "65ffad38f2c9b52f2455cceb",
         "__v": 0,
         "account_type": "anju",
@@ -1916,9 +2109,11 @@
         "sell_quantity": 0,
         "status": "active",
         "symbol": "FEDFINA",
-        "updated": "2024-10-17T14:49:04.461Z"
+        "created_on": "2024-10-29T04:17:36.464Z",
+        "updated": "2024-10-29T04:17:36.464Z"
     },
     {
+        "is_closed": 0,
         "_id": "67112155204103c061278bac",
         "__v": 0,
         "account_type": "anju",
@@ -1931,9 +2126,11 @@
         "sell_quantity": 0,
         "status": "active",
         "symbol": "BAJAJHFL",
-        "updated": "2024-10-17T14:38:13.824Z"
+        "updated": "2024-10-17T14:38:13.824Z",
+        "created_on": "2024-10-29T04:17:36.464Z"
     },
     {
+        "is_closed": 0,
         "_id": "671121a0204103c061278bed",
         "__v": 0,
         "account_type": "anju",
@@ -1946,9 +2143,11 @@
         "sell_quantity": 0,
         "status": "active",
         "symbol": "FUSION",
-        "updated": "2024-10-17T14:39:28.933Z"
+        "updated": "2024-10-17T14:39:28.933Z",
+        "created_on": "2024-10-29T04:17:36.464Z"
     },
     {
+        "is_closed": 0,
         "_id": "671121d0204103c061278bf1",
         "__v": 0,
         "account_type": "anju",
@@ -1961,9 +2160,11 @@
         "sell_quantity": 0,
         "status": "active",
         "symbol": "INDUSINDBK",
-        "updated": "2024-10-17T14:40:16.844Z"
+        "updated": "2024-10-17T14:40:16.844Z",
+        "created_on": "2024-10-29T04:17:36.464Z"
     },
     {
+        "is_closed": 0,
         "_id": "67112277204103c061278cb5",
         "__v": 0,
         "account_type": "anju",
@@ -1976,24 +2177,28 @@
         "sell_quantity": 0,
         "status": "active",
         "symbol": "NIFTYBEES",
-        "updated": "2024-10-17T14:43:03.284Z"
+        "updated": "2024-10-17T14:43:03.284Z",
+        "created_on": "2024-10-29T04:17:36.465Z"
     },
     {
+        "is_closed": 0,
         "_id": "671122a4204103c061278cf7",
         "__v": 0,
         "account_type": "anju",
         "buy_date": "2024-10-16T18:30:00.000Z",
-        "buy_price": 2718.75,
-        "buy_quantity": 1,
+        "buy_price": 1359.38,
+        "buy_quantity": 2,
         "investment_type": "shortterm",
         "sell_date": "",
         "sell_price": 0,
         "sell_quantity": 0,
         "status": "active",
         "symbol": "RELIANCE",
-        "updated": "2024-10-17T14:43:48.242Z"
+        "updated": "2024-10-17T14:43:48.242Z",
+        "created_on": "2024-10-29T04:17:36.465Z"
     },
     {
+        "is_closed": 0,
         "_id": "671122ce204103c061278d39",
         "__v": 0,
         "account_type": "anju",
@@ -2006,6 +2211,24 @@
         "sell_quantity": 0,
         "status": "active",
         "symbol": "TATAMOTORS",
-        "updated": "2024-10-17T14:44:30.877Z"
+        "updated": "2024-10-17T14:44:30.877Z",
+        "created_on": "2024-10-29T04:17:36.465Z"
+    },
+    {
+        "is_closed": 0,
+        "_id": "6717a55eb7460aa1c48d17a5",
+        "__v": 0,
+        "account_type": "anju",
+        "buy_date": "2024-10-21T18:30:00.000Z",
+        "buy_price": 145.4,
+        "buy_quantity": 50,
+        "investment_type": "shortterm",
+        "sell_date": "",
+        "sell_price": 0,
+        "sell_quantity": 0,
+        "status": "active",
+        "symbol": "MANAPPURAM",
+        "updated": "2024-10-22T13:15:10.915Z",
+        "created_on": "2024-10-29T04:17:36.465Z"
     }
 ]
